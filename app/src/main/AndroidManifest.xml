@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LifecycleActivity07062022">
         <activity
-            android:launchMode="singleTop"
+            android:launchMode="singleTask"
+            android:taskAffinity=""
             android:name=".MainActivity3"
             android:exported="false" />
         <activity
